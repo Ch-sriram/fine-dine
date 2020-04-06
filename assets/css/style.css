@@ -18,5 +18,24 @@ html {
 .row {
     max-width: 1140px;
     margin: 0 auto; /*margin: top-bottom left-right*/
-    
+}
+
+header {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/salad.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* For centering the text on the image */
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
 }
