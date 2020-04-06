@@ -1,0 +1,16 @@
+
+/* Universal selector's rules apply to all the elements in the markup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: white;
+    color: #555;
+    font-family: 'Lato', sans-serif, serif, Arial;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
