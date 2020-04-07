@@ -195,17 +195,42 @@ h3 {
 
 .box h3 {
     text-align: center;
-    border: thick double rgba(230,126,34,0.7);
+    border-bottom: thick double rgba(230,126,34,0.7);
     border-radius: 20px;
     padding: 1%;
 }
 
 /* ICONS */
-
 .icon-big {
     font-size: 400%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
     text-align: center;
+}
+
+
+/*-----------------------------------------*/
+/* MEALS */
+/*-----------------------------------------*/
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
 }
