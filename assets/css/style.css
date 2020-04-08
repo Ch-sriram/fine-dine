@@ -218,6 +218,36 @@ h3 {
     text-align: center;
 }
 
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    
+    /* Code for aligning text and icons */
+    line-height: 120%;
+    vertical-align: middle; 
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+/* LINKS */
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 
 /*-----------------------------------------*/
 /* FEATURES */
@@ -319,6 +349,24 @@ h3 {
     margin-right: 10px;
 }
 
+.btn-app:link,
+.btn-app:visited { border: 0; }
+
 /* #shift {
     margin-right: 20%;
 } */
+
+/*-----------------------------------------*/
+/* CITIES Section */
+/*-----------------------------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
