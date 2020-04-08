@@ -36,6 +36,7 @@ header {
      background-size: cover;
      background-position: center;
      height: 100vh;
+     background-attachment: fixed;
 }
 
 section {
@@ -357,7 +358,7 @@ a:active {
 } */
 
 /*-----------------------------------------*/
-/* CITIES Section */
+/* CITIES */
 /*-----------------------------------------*/
 
 .box img {
@@ -370,3 +371,46 @@ a:active {
     margin-bottom: 5px;
 }
 
+
+
+/*-----------------------------------------*/
+/* CUSTOMER TESTIMONIALS */
+/*-----------------------------------------*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/testimonial-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 500%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    display: block;
+    font-size: 90%;
+    margin-top: 25px;
+}
+
+cite img {
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
