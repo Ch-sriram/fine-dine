@@ -161,7 +161,9 @@ input[type=submit]:active {
 
 
 
-/* LOGO */
+/* LOGOS */
+
+/* White logo */
 .logo {
     height: 150px;
     width: auto;
@@ -169,8 +171,16 @@ input[type=submit]:active {
     margin-top: 20px;
 }
 
+.logo-black { 
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
 
-/* Navigation Bar */
+
+/* Main Navigation Bar */
 .main-nav {
     float: right;
     list-style: none;
@@ -195,20 +205,47 @@ input[type=submit]:active {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+.main-nav li a:active { border-bottom: 2px solid #e67e22; }
+
+
+/* Sticky Navigation Bar */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef; 
 }
 
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    word-spacing: 0.15rem;
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    -webkit-transition: border-bottom 0.2s;
+    -moz-transition: border-bottom 0.2s;
+    -ms-transition: border-bottom 0.2s;
+    -o-transition: border-bottom 0.2s;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active { border-bottom: 13px solid #e67e22; }
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
 
 /* Box Design for the Cards that define features */
-.box {
-    padding: 1%;
-}
+.box { padding: 1%; }
 
-.box p {
-    /* font-size: 110%; */
-    line-height: 145%;
-}
+.box p { line-height: 145%; }
 
 .box h3 {
     text-align: center;
