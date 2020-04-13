@@ -648,3 +648,23 @@ footer p {
 .js--wp-1.animate, 
 .js--wp-2.animate, 
 .js--wp-3.animate { opacity: 1; }
+
+
+/* --------------------------------------------- */
+/* GITHUB ICON */
+/* --------------------------------------------- */
+
+#github-icon i {
+    /* display: inline-block; */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 2rem;
+    z-index: 9999 !important;
+    padding: 1.5rem;
+}
+
+#github-icon i:hover {
+    filter: invert(50%);
+    -webkit-filter: invert(50%);
+}
